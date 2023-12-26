@@ -1,0 +1,30 @@
+h1{
+    font-family: 'Rancho', cursive;
+    letter-spacing: 3px;
+    color: rgb(7, 101, 101);
+}
+
+.cards h3{
+    font-family: 'Alkatra', regular;
+    color: rgb(182, 103, 7);
+}
+
+.cards p{
+    font-family: 'Alkatra', regular;
+    color: rgb(15, 2, 87);
+}
+
+.cards{
+    transition: all .40s ease;
+    cursor: pointer; 
+}
+
+.cards:hover{
+background-color: rgb(246, 219, 230);
+
+}
+
+.order-box{
+    border-radius: 25px;
+    background-color: rgb(236, 236, 229);
+}

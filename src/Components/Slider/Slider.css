@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar{
+    background-color: rgb(240, 167, 195);
+}
+
+.icon{
+    text-decoration: none;
+    color: rgb(10, 106, 113);
+    cursor: pointer;
+    font-family: 'Rancho', cursive;
+}
+
+.icon:hover{
+    color: #ffffff;
+}
+
+.carousel-content h1 { 
+    color: #57102a;
+    font-family: 'Rancho', cursive;
+    letter-spacing: 3.5px;    
+}
+
+.carousel-content  p{  
+    color: #6b063c;
+    font-family: 'Rancho', cursive;
+}
+
+.carousel-content hr {
+    display: block;
+    background: #00a4aa;
+    height: 4px;
+    width: 510px;
+    border: none;
+    margin: 1.125rem 0 1.875rem 0;
+}
+
+.swiper-slider {
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+    background: #fff;
+}
